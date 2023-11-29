@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text h6 {
+    color: rgb(99, 99, 219);
+    font-size: 40px;
+}
+
+.text h5 {
+    font-size: 40px;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+}
+
+input {
+    padding: 10px;
+}
+
+.basliq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+i {
+    font-size: 50px;
+    color: rgb(102, 102, 195);
+}
+
+.radio {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    width: 600px;
+    color: white;
+    background-color: rgb(103, 103, 215);
+}
+
+table {
+    width: 600px;
+    border: 1px solid black;
+}
+
+tr,td{
+    border: 1px solid black;
+}
